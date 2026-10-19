@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments (Local dependencies)
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets (CRITICAL: Do not commit sensitive keys)
+.env
+.env.*
+!.env.example
+*.pem
+
+# Databases (Local development databases)
+*.db
+*.sqlite3
+*.sqlite3-journal
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Type Checkers and Linters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Packaging and Distribution (If building a package)
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
