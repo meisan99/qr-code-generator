@@ -2,6 +2,8 @@
 
 Generate a QR code PNG from a link, using either a web UI or the command line.
 
+[Visit Live](https://ms-qr-code-generator.streamlit.app/)
+
 ## Setup
 
 ```bash
